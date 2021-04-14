@@ -29,7 +29,7 @@ public class LogAspect implements InvocationHandler {
             //前置增强
             log();
         }
-        Object returnValue=method.invoke(this.target,args); //相当于直接执行了StudentBizImpl中的find（）方法
+        Object returnValue=method.invoke(target,args); //相当于直接执行了StudentBizImpl中的find（）方法
 
         //后置增强
         return returnValue;
@@ -39,8 +39,8 @@ public class LogAspect implements InvocationHandler {
     //增强的声明
 
     public void log(){
-        System.out.println("=======前置增强的日志============");
         Date d=new Date();
+        System.out.println("=======前置增强的日志============");
         SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String dstr=sdf.format(d);
         System.out.println("执行时间为："+dstr);
