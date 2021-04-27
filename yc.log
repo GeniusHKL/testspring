@@ -1,0 +1,6 @@
+2021-04-27 18:28:51.391  INFO 13176 --- [restartedMain] c.y.s.helloworld.Springboot1Application  : Starting Springboot1Application using Java 1.8.0_191 on DESKTOP-FMLIKOF with PID 13176 (D:\IDEA\IdeaProjects\testspring\springboot1\target\classes started by K in D:\IDEA\IdeaProjects\testspring)
+2021-04-27 18:28:51.395  INFO 13176 --- [restartedMain] c.y.s.helloworld.Springboot1Application  : No active profile set, falling back to default profiles: default
+2021-04-27 18:28:52.506  INFO 13176 --- [restartedMain] c.y.s.helloworld.Springboot1Application  : Started Springboot1Application in 1.523 seconds (JVM running for 2.234)
+2021-04-27 18:32:22.817  INFO 11920 --- [restartedMain] c.y.s.helloworld.Springboot1Application  : Starting Springboot1Application using Java 1.8.0_191 on DESKTOP-FMLIKOF with PID 11920 (D:\IDEA\IdeaProjects\testspring\springboot1\target\classes started by K in D:\IDEA\IdeaProjects\testspring)
+2021-04-27 18:32:22.820  INFO 11920 --- [restartedMain] c.y.s.helloworld.Springboot1Application  : No active profile set, falling back to default profiles: default
+2021-04-27 18:32:23.775  INFO 11920 --- [restartedMain] c.y.s.helloworld.Springboot1Application  : Started Springboot1Application in 1.267 seconds (JVM running for 1.813)

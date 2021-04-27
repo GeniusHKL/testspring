@@ -1,0 +1,21 @@
+2021-04-27 18:32:34.004  INFO 7436 --- [restartedMain] com.yc.BankApplication                   : Starting BankApplication using Java 1.8.0_191 on DESKTOP-FMLIKOF with PID 7436 (D:\IDEA\IdeaProjects\testspring\mybank\target\classes started by K in D:\IDEA\IdeaProjects\testspring)
+2021-04-27 18:32:34.009  INFO 7436 --- [restartedMain] com.yc.BankApplication                   : No active profile set, falling back to default profiles: default
+2021-04-27 18:32:35.509  WARN 7436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-04-27 18:32:35.608  WARN 7436 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2021-04-27 18:32:35.689 ERROR 7436 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-04-27 18:32:53.414  INFO 4848 --- [restartedMain] com.yc.BankApplication                   : Starting BankApplication using Java 1.8.0_191 on DESKTOP-FMLIKOF with PID 4848 (D:\IDEA\IdeaProjects\testspring\mybank\target\classes started by K in D:\IDEA\IdeaProjects\testspring)
+2021-04-27 18:32:53.416  INFO 4848 --- [restartedMain] com.yc.BankApplication                   : No active profile set, falling back to default profiles: default
+2021-04-27 18:32:55.092  INFO 4848 --- [restartedMain] com.yc.BankApplication                   : Started BankApplication in 2.01 seconds (JVM running for 2.587)
